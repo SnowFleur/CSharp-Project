@@ -22,10 +22,7 @@ namespace ServerMonitor
         }
 
 
-        private void CallBack_ReceiveData(object sender, EventArgs e) { 
-        
-        
-        }
+    
 
 
 

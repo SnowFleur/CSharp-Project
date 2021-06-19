@@ -32,6 +32,8 @@ namespace ServerMonitor
 
             windowController_ = new CWindowController(MonitorTextBox, MonitorScroll);
 
+
+
         }
     }
 }
