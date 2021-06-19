@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
+
         <!---Line-->
-        
+
         <!--TextBlock-->
-        <ScrollViewer Margin="0,0,192,0">
-            <TextBox x:Name="Monitor" Width="587" Height="419">
-                
+        <ScrollViewer x:Name="MonitorScroll" Margin="0,0,192,0">
+            <TextBox x:Name="MonitorTextBox" Width="587" Height="419" Background="Black">
+
             </TextBox>
-            
+
         </ScrollViewer>
-        
-        
+
     </Grid>
 </Window>

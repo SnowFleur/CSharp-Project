@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace ServerMonitor
 {
     /// <summary>
@@ -20,9 +21,17 @@ namespace ServerMonitor
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        CWindowController   windowController_;
+
+
         public MainWindow()
         {
+
             InitializeComponent();
+
+            windowController_ = new CWindowController(MonitorTextBox, MonitorScroll);
+
         }
     }
 }
