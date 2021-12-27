@@ -14,7 +14,6 @@ namespace SnowNetEngine
     {
         private Socket     socket_;
         private IPEndPoint serverAddr_;
-
         public CSnowConnector()
         {
         }
